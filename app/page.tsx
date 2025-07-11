@@ -101,13 +101,12 @@ export default function WebinarLandingPage() {
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
                   <span className="bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-3 py-1 rounded-full text-sm font-bold mr-3">1부</span>
-                  <h3 className="font-semibold text-lg">노션 기초 설정 & 실습</h3>
+                  <h3 className="font-semibold text-lg">노션 기초 설정</h3>
                 </div>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li className="flex items-start"><span className="text-blue-500 mr-2">•</span>피트니스 센터 전용 노션 템플릿 소개</li>
                   <li className="flex items-start"><span className="text-blue-500 mr-2">•</span>회원 관리 시스템 구축</li>
                   <li className="flex items-start"><span className="text-blue-500 mr-2">•</span>예약 및 결제 시스템 연동</li>
-                  <li className="flex items-start"><span className="text-blue-500 mr-2">•</span>실습: 내 센터에 바로 적용해보기</li>
                 </ul>
               </CardContent>
             </Card>
@@ -115,13 +114,12 @@ export default function WebinarLandingPage() {
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
                   <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-3 py-1 rounded-full text-sm font-bold mr-3">2부</span>
-                  <h3 className="font-semibold text-lg">AI 자동화 시스템 & 실습</h3>
+                  <h3 className="font-semibold text-lg">AI 자동화 시스템</h3>
                 </div>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li className="flex items-start"><span className="text-purple-500 mr-2">•</span>ChatGPT 활용 업무 자동화</li>
                   <li className="flex items-start"><span className="text-purple-500 mr-2">•</span>고객 응대 자동화</li>
                   <li className="flex items-start"><span className="text-purple-500 mr-2">•</span>마케팅 콘텐츠 자동 생성</li>
-                  <li className="flex items-start"><span className="text-purple-500 mr-2">•</span>실습: AI 자동화 직접 체험</li>
                 </ul>
               </CardContent>
             </Card>
