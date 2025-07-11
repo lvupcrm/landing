@@ -198,46 +198,6 @@ export default function WebinarLandingPage() {
         </div>
       </section>
 
-      {/* FAQ 섹션 */}
-      <section id="faq" className="w-full max-w-3xl mx-auto py-10 md:py-14 px-4">
-        <h2 className="text-xl sm:text-2xl font-bold mb-8 text-center">❓ 자주 묻는 질문</h2>
-        <div className="flex flex-col gap-4">
-          <div className="bg-white rounded-xl shadow p-5">
-            <div className="font-semibold mb-2">Q. 정말 무료인가요?</div>
-            <div className="text-gray-600 text-sm">네, 본 강의는 한정 인원에 한해 100% 무료로 제공됩니다.</div>
-          </div>
-          <div className="bg-white rounded-xl shadow p-5">
-            <div className="font-semibold mb-2">Q. 강의 신청 후 바로 안내를 받을 수 있나요?</div>
-            <div className="text-gray-600 text-sm">신청 즉시 확인 이메일이 발송됩니다. (스팸함도 확인해 주세요)</div>
-          </div>
-          <div className="bg-white rounded-xl shadow p-5">
-            <div className="font-semibold mb-2">Q. 실습은 어떻게 진행되나요?</div>
-            <div className="text-gray-600 text-sm">실시간 Zoom에서 직접 실습하며, Q&A도 바로 진행합니다.</div>
-          </div>
-        </div>
-      </section>
-
-      {/* 후기 섹션 */}
-      <section id="review" className="w-full max-w-3xl mx-auto py-10 md:py-14 px-4">
-        <h2 className="text-xl sm:text-2xl font-bold mb-8 text-center">⭐ 수강생 후기</h2>
-        <div className="flex flex-col gap-4">
-          <div className="bg-white rounded-xl shadow p-5 flex flex-col gap-2">
-            <div className="flex items-center gap-2">
-              <span className="text-yellow-400 text-lg">★</span>
-              <span className="font-semibold">"노션과 AI 자동화 실습이 정말 실무에 바로 도움이 됐어요!"</span>
-            </div>
-            <div className="text-xs text-gray-500">- 김OO, 센터장</div>
-          </div>
-          <div className="bg-white rounded-xl shadow p-5 flex flex-col gap-2">
-            <div className="flex items-center gap-2">
-              <span className="text-yellow-400 text-lg">★</span>
-              <span className="font-semibold">"무료인데도 커리큘럼이 알차고, 바로 적용할 수 있었습니다."</span>
-            </div>
-            <div className="text-xs text-gray-500">- 이OO, 트레이너</div>
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section id="cta" className="w-full py-14 md:py-20 px-4 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
         <div className="max-w-4xl mx-auto text-center">
