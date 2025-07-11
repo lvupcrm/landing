@@ -25,4 +25,4 @@ npm run build
 
 ## 배포
 
-이 프로젝트는 Vercel을 통해 배포됩니다. 
+이 프로젝트는 Vercel을 통해 배포됩니다. # landing
