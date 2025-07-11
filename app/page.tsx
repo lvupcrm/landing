@@ -127,27 +127,32 @@ export default function WebinarLandingPage() {
         </div>
       </section>
 
-      {/* 강사 소개 */}
-      <section id="instructor" className="w-full py-12 md:py-16 px-4">
+      {/* LVUP 브랜드 소개 */}
+      <section id="brand" className="w-full py-12 md:py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-xl sm:text-2xl font-bold mb-8">👨‍🏫 강사 소개</h2>
-          <div className="bg-gradient-to-br from-white to-gray-50 rounded-lg p-6 md:p-8 shadow-lg border border-gray-200">
-            <div className="flex flex-col md:flex-row items-center gap-6">
-              <div className="w-24 h-24 bg-gradient-to-br from-purple-600 via-blue-600 to-indigo-600 rounded-full flex items-center justify-center text-white text-2xl font-bold shadow-lg">
-                <span role="img" aria-label="강사">🧑‍💻</span>
-              </div>
-              <div className="text-left">
-                <h3 className="text-lg sm:text-xl font-bold mb-2">LVUP 피트니스</h3>
-                <p className="text-sm sm:text-base text-gray-600 mb-3">
-                  10년 이상의 현장 경험을 바탕으로 센터의 디지털 트랜스포메이션을 이끄는 전문가
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <span className="bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-3 py-1 rounded-full text-xs font-medium hover:scale-105 transition">피트니스 센터 운영 10년+</span>
-                  <span className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-3 py-1 rounded-full text-xs font-medium hover:scale-105 transition">노션 전문가</span>
-                  <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-3 py-1 rounded-full text-xs font-medium hover:scale-105 transition">AI 자동화 전문가</span>
-                </div>
-              </div>
+          <h2 className="text-xl sm:text-2xl font-bold mb-8 flex items-center justify-center gap-2">
+            <span className="text-2xl">🏋️‍♂️</span>
+            <span className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">LVUP 브랜드 소개</span>
+          </h2>
+          <div className="bg-gradient-to-br from-white to-gray-50 rounded-lg p-8 md:p-10 shadow-lg border border-gray-200 flex flex-col items-center">
+            <div className="flex items-center gap-3 mb-4">
+              <span className="text-3xl font-extrabold tracking-tight text-indigo-600">LVUP</span>
+              <span className="text-base font-semibold text-gray-500">피트니스</span>
             </div>
+            <h3 className="text-lg sm:text-xl font-bold mb-4 text-gray-800">더 쉽게 일하고, 강력하게 성장하는<br />피트니스 업무 시스템</h3>
+            <p className="text-gray-600 mb-4 text-sm sm:text-base leading-relaxed">
+              10년의 노하우로 완성된 피트니스 업무 체계와 매뉴얼을 누구나 실행 가능한 시스템으로 바꾸었습니다.<br />
+              LVUP는 피트니스 종사자들의 성장을 돕고자 업계 노하우를 체계화하여<br />누구나 실행하고 성장할 수 있는 올인원 업무 시스템을 제공합니다.
+            </p>
+            <ul className="text-gray-700 text-sm sm:text-base mb-6 flex flex-col gap-2 items-center">
+              <li className="flex items-center gap-2"><span className="text-indigo-500">✔️</span> 노션 기반, 클릭 한 번으로 복제</li>
+              <li className="flex items-center gap-2"><span className="text-indigo-500">✔️</span> 회원/직원/매출/마케팅 등 센터 운영 전반 지원</li>
+              <li className="flex items-center gap-2"><span className="text-indigo-500">✔️</span> 누구나 쉽게 적응, 완전한 커스터마이징 가능</li>
+              <li className="flex items-center gap-2"><span className="text-indigo-500">✔️</span> 성장에 도움이 되는 블로그/자료 제공</li>
+            </ul>
+            <a href="https://lvupfitness.kr/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-bold shadow hover:from-indigo-600 hover:to-purple-600 transition">
+              LVUP 공식 사이트 바로가기 ↗
+            </a>
           </div>
         </div>
       </section>
@@ -234,7 +239,7 @@ export default function WebinarLandingPage() {
             <a href="#hero" className="hover:text-indigo-600">홈</a>
             <a href="#info" className="hover:text-indigo-600">강의정보</a>
             <a href="#curriculum" className="hover:text-indigo-600">커리큘럼</a>
-            <a href="#instructor" className="hover:text-indigo-600">강사소개</a>
+            <a href="#brand" className="hover:text-indigo-600">브랜드소개</a>
             <a href="#recommend" className="hover:text-indigo-600">추천대상</a>
             <a href="#faq" className="hover:text-indigo-600">FAQ</a>
             <a href="#review" className="hover:text-indigo-600">후기</a>
