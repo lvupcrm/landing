@@ -261,7 +261,7 @@ export default function WebinarLandingPage() {
                   <span>👉</span> 무료 강의 신청하기
                 </Link>
               </Button>
-              <p className="text-xs text-gray-400 mt-3">* 선착순 마감, 신청 후 즉시 확인 이메일 발송</p>
+              <p className="text-xs text-gray-400 mt-3">* 신청 후 알림톡 발송</p>
             </div>
           </div>
         </div>
