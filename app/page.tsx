@@ -96,33 +96,72 @@ export default function WebinarLandingPage() {
       <section id="curriculum" className="w-full bg-gradient-to-br from-slate-50 to-gray-100 py-12 md:py-16 px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl sm:text-2xl font-bold mb-8 text-center">📋 강의 커리큘럼</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Card className="hover:shadow-lg transition-shadow border-0 bg-white/80 backdrop-blur-sm">
-              <CardContent className="p-6">
-                <div className="flex items-center mb-4">
-                  <span className="bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-3 py-1 rounded-full text-sm font-bold mr-3">1부</span>
-                  <h3 className="font-semibold text-lg">노션 기초 설정</h3>
-                </div>
-                <ul className="text-sm text-gray-600 space-y-2">
-                  <li className="flex items-start"><span className="text-blue-500 mr-2">•</span>피트니스 센터 전용 노션 템플릿 소개</li>
-                  <li className="flex items-start"><span className="text-blue-500 mr-2">•</span>회원 관리 시스템 구축</li>
-                  <li className="flex items-start"><span className="text-blue-500 mr-2">•</span>예약 및 결제 시스템 연동</li>
-                </ul>
-              </CardContent>
-            </Card>
-            <Card className="hover:shadow-lg transition-shadow border-0 bg-white/80 backdrop-blur-sm">
-              <CardContent className="p-6">
-                <div className="flex items-center mb-4">
-                  <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-3 py-1 rounded-full text-sm font-bold mr-3">2부</span>
-                  <h3 className="font-semibold text-lg">AI 자동화 시스템</h3>
-                </div>
-                <ul className="text-sm text-gray-600 space-y-2">
-                  <li className="flex items-start"><span className="text-purple-500 mr-2">•</span>ChatGPT 활용 업무 자동화</li>
-                  <li className="flex items-start"><span className="text-purple-500 mr-2">•</span>고객 응대 자동화</li>
-                  <li className="flex items-start"><span className="text-purple-500 mr-2">•</span>마케팅 콘텐츠 자동 생성</li>
-                </ul>
-              </CardContent>
-            </Card>
+          <div className="flex flex-col gap-6">
+            {/* 1️⃣ 오프닝 */}
+            <div className="bg-white/90 rounded-2xl shadow-md p-6 border border-gray-100">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-lg md:text-xl">1️⃣</span>
+                <span className="font-semibold text-base md:text-lg">오프닝</span>
+              </div>
+              <ul className="text-gray-700 text-sm md:text-base list-disc pl-5 space-y-1">
+                <li>강의 진행 목적 및 간단한 소개</li>
+                <li>센터 운영자가 노션 x AI 활용해야 하는 이유</li>
+                <li>AI로 만든 팟캐스트로 노션 자동화 업무에 대한 간략한 소개</li>
+              </ul>
+            </div>
+            {/* 2️⃣ 실제 사례 소개 */}
+            <div className="bg-white/90 rounded-2xl shadow-md p-6 border border-gray-100">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-lg md:text-xl">2️⃣</span>
+                <span className="font-semibold text-base md:text-lg">노션×AI 업무 자동화 실제 사례 소개</span>
+              </div>
+              <ul className="text-gray-700 text-sm md:text-base list-disc pl-5 space-y-1">
+                <li>실제 센터 워크스페이스 시연 및 사례 공개</li>
+                <li>Make와 GPT로 구현된 실제 업무 자동화 사례 시연</li>
+                <li className="ml-4">- 커스텀 GPT 시연</li>
+                <li className="ml-4">- 회의록 자동 요약 및 자동 매핑 시연</li>
+                <li className="ml-4">- CRM 마케팅 자동화 시연</li>
+              </ul>
+            </div>
+            {/* 3️⃣ 템플릿 & 솔루션 안내 */}
+            <div className="bg-white/90 rounded-2xl shadow-md p-6 border border-gray-100">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-lg md:text-xl">3️⃣</span>
+                <span className="font-semibold text-base md:text-lg">템플릿 & 솔루션 안내</span>
+              </div>
+              <ul className="text-gray-700 text-sm md:text-base list-disc pl-5 space-y-1">
+                <li>즉시 도입 가능한 피트니스 운영 템플릿 소개 (회원관리, 상담관리, 매출관리 등)</li>
+                <li>노션 템플릿을 직접 설치·구축하는 솔루션 안내</li>
+                <li>맞춤형 솔루션 구축 서비스 소개</li>
+              </ul>
+            </div>
+            {/* 4️⃣ 정규 과정 안내 */}
+            <div className="bg-white/90 rounded-2xl shadow-md p-6 border border-gray-100">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-lg md:text-xl">4️⃣</span>
+                <span className="font-semibold text-base md:text-lg">정규 과정 안내</span>
+              </div>
+              <ul className="text-gray-700 text-sm md:text-base list-disc pl-5 space-y-1">
+                <li>센터 구조화 & 자동화를 직접 구축할 수 있는 정규 과정(8주 과정) 안내</li>
+                <li>과정 상세 내용 및 수강생 기대효과 (업무 자동화 시스템 완성, 데이터 기반 운영, 매출 향상 등)</li>
+              </ul>
+            </div>
+            {/* 5️⃣ Q&A 및 마무리 */}
+            <div className="bg-white/90 rounded-2xl shadow-md p-6 border border-gray-100">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-lg md:text-xl">5️⃣</span>
+                <span className="font-semibold text-base md:text-lg">Q&A 및 마무리</span>
+              </div>
+              <ul className="text-gray-700 text-sm md:text-base list-disc pl-5 space-y-1">
+                <li>운영자들이 주로 궁금해하는 현실적 질문과 답변</li>
+              </ul>
+            </div>
+          </div>
+          {/* 강의 자료 링크 */}
+          <div className="mt-8 text-center">
+            <a href="https://gamma.app/docs/x-AI--hmb3fwl2m0czp0u" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-bold shadow hover:from-indigo-600 hover:to-purple-600 transition">
+              📑 강의 자료 바로가기
+            </a>
           </div>
         </div>
       </section>
