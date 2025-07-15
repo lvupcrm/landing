@@ -477,7 +477,6 @@ export default function WebinarLandingPage() {
         <div className="max-w-4xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <p className="text-white font-medium">ⓒ 2025 LVUP. All rights reserved.</p>
-            <p className="mt-2">문의: <a href="mailto:contact@lvup.com" className="underline hover:text-blue-400 transition-colors">contact@lvup.com</a></p>
           </div>
           <div className="flex flex-wrap gap-6 mt-4 md:mt-0">
             <a href="#hero" className="hover:text-blue-400 transition-colors">홈</a>
