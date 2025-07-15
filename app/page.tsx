@@ -5,23 +5,9 @@ import Link from "next/link";
 
 export default function WebinarLandingPage() {
   return (
-    <div className="flex flex-col items-center min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 relative overflow-hidden overflow-x-hidden">
-      {/* AI Tech Background Pattern */}
-      <div className="absolute inset-0 opacity-5 pointer-events-none">
-        <div className="absolute top-20 left-20 w-32 h-32 border border-cyan-400 rounded-full animate-pulse"></div>
-        <div className="absolute top-40 right-32 w-24 h-24 border border-purple-400 rounded-full animate-pulse delay-1000"></div>
-        <div className="absolute bottom-32 left-1/3 w-20 h-20 border border-green-400 rounded-full animate-pulse delay-2000"></div>
-        <div className="absolute top-1/2 right-1/4 w-16 h-16 border border-orange-400 rounded-full animate-pulse delay-3000"></div>
-        <div className="absolute bottom-20 right-20 w-28 h-28 border border-pink-400 rounded-full animate-pulse delay-1500"></div>
-      </div>
-
+    <div className="flex flex-col items-center min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 relative overflow-hidden">
       {/* Hero Section */}
-      <section id="hero" className="w-full bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white py-10 sm:py-14 md:py-24 px-2 sm:px-4 text-center relative overflow-hidden">
-        {/* Dynamic Background Elements */}
-        <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 via-purple-500/10 to-pink-500/10 animate-pulse"></div>
-        <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_30%_20%,rgba(120,119,198,0.3),transparent_50%)]"></div>
-        <div className="absolute top-0 right-0 w-full h-full bg-[radial-gradient(circle_at_70%_80%,rgba(120,119,198,0.3),transparent_50%)]"></div>
-        
+      <section id="hero" className="w-full bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white py-10 sm:py-14 md:py-24 px-2 sm:px-4 text-center relative">
         <div className="max-w-4xl mx-auto relative z-10">
           {/* Enhanced Badges */}
           <div className="flex justify-center gap-2 sm:gap-3 mb-6 sm:mb-8 flex-wrap">
@@ -74,7 +60,7 @@ export default function WebinarLandingPage() {
             </div>
           </div>
           
-          <Button asChild size="lg" className="bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold text-base sm:text-lg md:text-xl px-6 sm:px-10 py-4 sm:py-6 rounded-2xl shadow-2xl hover:from-emerald-600 hover:via-cyan-600 hover:to-blue-600 transition-all duration-300 border-2 border-cyan-400/50 flex items-center gap-2 sm:gap-3 mx-auto group hover:scale-110 animate-pulse shadow-emerald-500/50 hover:shadow-emerald-400/50 hover:shadow-2xl" aria-label="무료 웨비나 신청하기">
+          <Button asChild size="lg" className="bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold text-base sm:text-lg md:text-xl px-6 sm:px-10 py-4 sm:py-6 rounded-2xl shadow-2xl hover:from-emerald-600 hover:via-cyan-600 hover:to-blue-600 transition-all duration-300 border-2 border-cyan-400/50 flex items-center gap-2 sm:gap-3 mx-auto group hover:scale-110 shadow-emerald-500/50 hover:shadow-emerald-400/50 hover:shadow-2xl" aria-label="무료 웨비나 신청하기">
             <Link href="https://tally.so/r/nGE1Zk" target="_blank">
               <span className="text-xl group-hover:rotate-12 transition-transform">👉</span> 지금 바로 무료로 신청하기
             </Link>
@@ -448,12 +434,7 @@ export default function WebinarLandingPage() {
       </section>
 
       {/* 마지막 CTA Section */}
-      <section id="cta" className="w-full py-20 md:py-24 px-4 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white relative overflow-hidden">
-        {/* Dynamic Background Elements */}
-        <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 via-purple-500/10 to-pink-500/10 animate-pulse"></div>
-        <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_30%_20%,rgba(120,119,198,0.3),transparent_50%)]"></div>
-        <div className="absolute top-0 right-0 w-full h-full bg-[radial-gradient(circle_at_70%_80%,rgba(120,119,198,0.3),transparent_50%)]"></div>
-        
+      <section id="cta" className="w-full py-20 md:py-24 px-4 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white relative">
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black mb-8 sm:mb-10 bg-gradient-to-r from-white via-cyan-200 to-purple-200 bg-clip-text text-transparent leading-tight">
             📢 지금 신청하면, 다음 달이 달라집니다!
@@ -483,8 +464,7 @@ export default function WebinarLandingPage() {
                 <span className="text-2xl font-bold text-emerald-400">무료</span>
               </div>
               
-              <Button asChild size="lg" className="bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold text-xl px-12 py-6 rounded-2xl shadow-2xl hover:from-emerald-600 hover:via-cyan-600 hover:to-blue-600 transition-all duration-300 w-full sm:w-auto border border-cyan-400/50 flex items-center gap-4 group hover:scale-110 animate-pulse shadow-emerald-500/50 hover:shadow-emerald-400/50 hover:shadow-2xl relative overflow-hidden" aria-label="무료 웨비나 신청하기">
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+              <Button asChild size="lg" className="bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold text-xl px-12 py-6 rounded-2xl shadow-2xl hover:from-emerald-600 hover:via-cyan-600 hover:to-blue-600 transition-all duration-300 w-full sm:w-auto border border-cyan-400/50 flex items-center gap-4 group hover:scale-110 shadow-emerald-500/50 hover:shadow-emerald-400/50 hover:shadow-2xl relative overflow-hidden" aria-label="무료 웨비나 신청하기">
                 <Link href="https://tally.so/r/nGE1Zk" target="_blank">
                   <span className="text-2xl group-hover:rotate-12 transition-transform">👉</span> 무료 웨비나 신청하기
                 </Link>
