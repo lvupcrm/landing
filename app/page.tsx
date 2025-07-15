@@ -22,12 +22,13 @@ export default function WebinarLandingPage() {
             <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-full text-xs font-bold shadow-lg flex items-center gap-1"><span>🔥</span>한정</span>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 leading-tight bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent drop-shadow-lg">
-            노션과 AI로 피트니스 센터<br className="hidden sm:block" />
-            업무 자동화 시스템 구축하기
+            운영에 쏟는 시간, 90% 줄일 수 있다면?
           </h1>
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-purple-200">
+            『피트니스 노션 × AI 업무 자동화』 무료 웨비나
+          </h2>
           <p className="text-base sm:text-lg md:text-xl mb-8 px-2 text-gray-200">
-            어디서든 센터를 경영하라!<br />
-            디지털 전환과 자동화의 첫걸음
+            실제 센터 대표가 만든 시스템으로 운영 자동화를 경험하세요.
           </p>
           {/* AI 툴 로고 */}
           <div className="flex justify-center items-center gap-4 mb-8 flex-wrap">
@@ -41,51 +42,236 @@ export default function WebinarLandingPage() {
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20 flex flex-col items-center w-16">
               <span className="text-2xl">⚡</span>
-              <span className="text-xs text-gray-300 mt-1">AI Tools</span>
+              <span className="text-xs text-gray-300 mt-1">Make</span>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20 flex flex-col items-center w-16">
               <span className="text-2xl">🔧</span>
               <span className="text-xs text-gray-300 mt-1">Automation</span>
             </div>
           </div>
-          <Button asChild size="lg" className="bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold text-base sm:text-lg px-8 py-4 rounded-xl shadow-xl hover:from-purple-700 hover:to-blue-700 transition-all duration-300 border-2 border-purple-400/50 flex items-center gap-2 mx-auto" aria-label="무료 강의 신청하기">
+          <Button asChild size="lg" className="bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold text-base sm:text-lg px-8 py-4 rounded-xl shadow-xl hover:from-purple-700 hover:to-blue-700 transition-all duration-300 border-2 border-purple-400/50 flex items-center gap-2 mx-auto" aria-label="무료 웨비나 신청하기">
             <Link href="https://tally.so/r/nGE1Zk" target="_blank">
-              <span>👉</span> 무료 강의 신청하기
+              <span>👉</span> 지금 바로 무료로 신청하기
             </Link>
           </Button>
-          <p className="text-xs text-gray-400 mt-4">* 신청 후 바로 확인 이메일 발송</p>
+          <div className="mt-6 text-sm text-gray-300">
+            <p>📅 일시: 2025년 7월 25일(목) 오후 3시</p>
+            <p>📍 장소: 온라인 Zoom (신청자 알림톡으로 링크 제공)</p>
+          </div>
+        </div>
+      </section>
+
+      {/* 공감 & 문제 제기 섹션 */}
+      <section id="problem" className="w-full py-12 md:py-16 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-gray-800">
+            센터 운영, 정말 이렇게 계속하실 건가요?
+          </h2>
+          <div className="bg-gradient-to-br from-red-50 to-pink-50 rounded-2xl p-8 md:p-10 shadow-lg border border-red-100">
+            <ul className="text-left space-y-4 mb-6 text-gray-700">
+              <li className="flex items-start gap-3">
+                <span className="text-red-500 text-xl">❌</span>
+                <span>손으로, 기억력으로 관리하기엔 너무 벅차고,</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-red-500 text-xl">❌</span>
+                <span>하루하루가 똑같이 반복되기만 하고,</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-red-500 text-xl">❌</span>
+                <span>매달 이러면 안 된다는 걸 알지만 바뀌는 건 없고…</span>
+              </li>
+            </ul>
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-green-200">
+              <p className="text-lg font-bold text-green-700 mb-2">
+                "바꿀 수 있는 구조가 이미 있습니다. 지금 시작하세요."
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 강의자 소개 섹션 */}
+      <section id="instructor" className="w-full bg-gradient-to-br from-slate-50 to-gray-100 py-12 md:py-16 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-gray-800">
+            🚀 현장에서 직접 만들어 쓴 구조를 공개합니다
+          </h2>
+          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-gray-200">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+              <div className="space-y-3">
+                <div className="flex items-center gap-2 text-indigo-600 font-semibold">
+                  <span>🏢</span>
+                  <span>센터 2개 지점 운영</span>
+                </div>
+                <div className="flex items-center gap-2 text-indigo-600 font-semibold">
+                  <span>🚀</span>
+                  <span>피트니스 종사자 성장 플랫폼 LVUP 운영</span>
+                </div>
+                <div className="flex items-center gap-2 text-indigo-600 font-semibold">
+                  <span>🤖</span>
+                  <span>Notion, GPT, Make를 활용한 피트니스 운영 자동화 전문가</span>
+                </div>
+                <div className="flex items-center gap-2 text-indigo-600 font-semibold">
+                  <span>📈</span>
+                  <span>센터운영 10년차 대표가 경험한 내용을 솔루션으로 개발</span>
+                </div>
+              </div>
+              <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-6 border border-indigo-200">
+                <p className="text-gray-700 font-medium italic">
+                  "이 강의는 이론이 아니라 현장에서 실제로 작동하는 구조를 직접 보여드립니다."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 웨비나에서 배울 수 있는 내용 */}
+      <section id="content" className="w-full py-12 md:py-16 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-center text-gray-800">
+            ✅ 웨비나에서 배울 수 있는 내용
+          </h2>
+          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 md:p-10 shadow-lg border border-blue-200">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+              <div className="bg-white rounded-xl p-6 shadow-md border border-blue-100">
+                <div className="text-2xl mb-3">📝</div>
+                <h3 className="font-bold text-gray-800 mb-2">피트니스 맞춤 Notion 과 AI 활용 방법</h3>
+                <p className="text-gray-600 text-sm">센터 운영에 최적화된 노션 템플릿과 AI 활용 전략</p>
+              </div>
+              <div className="bg-white rounded-xl p-6 shadow-md border border-blue-100">
+                <div className="text-2xl mb-3">🤖</div>
+                <h3 className="font-bold text-gray-800 mb-2">대표 없이도 운영되는 센터 구조</h3>
+                <p className="text-gray-600 text-sm">자동화된 시스템으로 대표 부재 시에도 원활한 운영</p>
+              </div>
+              <div className="bg-white rounded-xl p-6 shadow-md border border-blue-100">
+                <div className="text-2xl mb-3">📊</div>
+                <h3 className="font-bold text-gray-800 mb-2">상담 고객 관리 & 미등록 고객 관리 자동화 흐름</h3>
+                <p className="text-gray-600 text-sm">고객 관리부터 마케팅까지 자동화된 워크플로우</p>
+              </div>
+            </div>
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-indigo-200 text-center">
+              <p className="text-lg font-bold text-indigo-700">
+                현장 대표가 만들어 실제 사용하는 시스템을 그대로 공개합니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 참가 혜택 강조 섹션 */}
+      <section id="benefits" className="w-full bg-gradient-to-br from-slate-50 to-gray-100 py-12 md:py-16 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-gray-800">
+            🎁 참가자 전원에게 드리는 무료 자료
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+              <div className="text-3xl mb-4">📋</div>
+              <h3 className="font-bold text-gray-800 mb-2">운영 자동화 전체 흐름도 PDF</h3>
+              <p className="text-gray-600 text-sm">센터 운영 자동화의 전체적인 구조와 흐름을 한눈에 파악할 수 있는 가이드</p>
+            </div>
+            <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+              <div className="text-3xl mb-4">📝</div>
+              <h3 className="font-bold text-gray-800 mb-2">상담/고객 관리용 Notion 템플릿</h3>
+              <p className="text-gray-600 text-sm">바로 사용할 수 있는 실용적인 노션 템플릿 제공</p>
+            </div>
+            <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+              <div className="text-3xl mb-4">🤖</div>
+              <h3 className="font-bold text-gray-800 mb-2">센터 운영에 도움 되는 커스텀 GPT</h3>
+              <p className="text-gray-600 text-sm">피트니스 센터 운영에 특화된 AI 어시스턴트 활용법</p>
+            </div>
+          </div>
+          <div className="mt-8 bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-xl p-6 shadow-lg">
+            <p className="text-lg font-bold">
+              "웨비나 이후 바로 실행할 수 있도록 준비했습니다."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 실제 변화 및 후기 */}
+      <section id="testimonials" className="w-full py-12 md:py-16 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-center text-gray-800">
+            💬 "운영이 자동화된 후, 제 일상이 바뀌었습니다."
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 shadow-lg border border-green-200">
+              <div className="flex items-start gap-3 mb-4">
+                <span className="text-2xl">🏢</span>
+                <div>
+                  <p className="font-bold text-gray-800">"출근 하지 않아도 센터 운영을 할 수 있게 되었습니다."</p>
+                  <p className="text-sm text-gray-600 mt-2">- 자동화 시스템 구축 후</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 shadow-lg border border-blue-200">
+              <div className="flex items-start gap-3 mb-4">
+                <span className="text-2xl">⏰</span>
+                <div>
+                  <p className="font-bold text-gray-800">"업무 시간이 10/1로 줄어 들었습니다."</p>
+                  <p className="text-sm text-gray-600 mt-2">- 효율성 극대화</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 shadow-lg border border-purple-200">
+              <div className="flex items-start gap-3 mb-4">
+                <span className="text-2xl">💬</span>
+                <div>
+                  <p className="font-bold text-gray-800">"직원과 카톡 조율이 사라졌습니다."</p>
+                  <p className="text-sm text-gray-600 mt-2">- 자동화된 커뮤니케이션</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-6 shadow-lg border border-orange-200">
+              <div className="flex items-start gap-3 mb-4">
+                <span className="text-2xl">👥</span>
+                <div>
+                  <p className="font-bold text-gray-800">"고객 관리가 자동으로 되니 누락 걱정이 없습니다."</p>
+                  <p className="text-sm text-gray-600 mt-2">- 체계적인 고객 관리</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-8 text-center">
+            <p className="text-lg font-bold text-gray-700">
+              "대표가 말하는 진짜 자동화 후기를 들어보세요."
+            </p>
+          </div>
         </div>
       </section>
 
       {/* 강의 정보 */}
-      <section id="info" className="w-full max-w-6xl py-12 md:py-16 px-4">
-        <h2 className="text-xl sm:text-2xl font-bold mb-8 text-center">📚 강의 정보</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+      <section id="info" className="w-full bg-gradient-to-br from-slate-50 to-gray-100 py-12 md:py-16 px-4">
+        <h2 className="text-xl sm:text-2xl font-bold mb-8 text-center">📚 웨비나 정보</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 max-w-6xl mx-auto">
           <Card className="hover:shadow-lg transition-shadow border-0 bg-gradient-to-br from-blue-50 to-indigo-50">
             <CardContent className="p-4 md:p-6 text-center">
               <div className="text-2xl mb-2">📅</div>
-              <p className="text-xs sm:text-sm text-gray-500 mb-2">강의 일시</p>
-              <p className="text-sm sm:text-lg font-semibold leading-tight">2025년 7월 25일 (금)<br />오후 3시</p>
+              <p className="text-xs sm:text-sm text-gray-500 mb-2">웨비나 일시</p>
+              <p className="text-sm sm:text-lg font-semibold leading-tight">2025년 7월 25일 (목)<br />오후 3시</p>
             </CardContent>
           </Card>
           <Card className="hover:shadow-lg transition-shadow border-0 bg-gradient-to-br from-purple-50 to-pink-50">
             <CardContent className="p-4 md:p-6 text-center">
               <div className="text-2xl mb-2">⏰</div>
-              <p className="text-xs sm:text-sm text-gray-500 mb-2">강의 시간</p>
-              <p className="text-sm sm:text-lg font-semibold leading-tight">90분<br />실시간 강의</p>
+              <p className="text-xs sm:text-sm text-gray-500 mb-2">웨비나 시간</p>
+              <p className="text-sm sm:text-lg font-semibold leading-tight">90분<br />실시간 웨비나</p>
             </CardContent>
           </Card>
           <Card className="hover:shadow-lg transition-shadow border-0 bg-gradient-to-br from-green-50 to-emerald-50">
             <CardContent className="p-4 md:p-6 text-center">
               <div className="text-2xl mb-2">👥</div>
-              <p className="text-xs sm:text-sm text-gray-500 mb-2">수강 인원</p>
+              <p className="text-xs sm:text-sm text-gray-500 mb-2">참가 인원</p>
               <p className="text-sm sm:text-lg font-semibold leading-tight">한정 100명<br />선착순 마감</p>
             </CardContent>
           </Card>
           <Card className="hover:shadow-lg transition-shadow border-0 bg-gradient-to-br from-orange-50 to-red-50">
             <CardContent className="p-4 md:p-6 text-center">
               <div className="text-2xl mb-2">💰</div>
-              <p className="text-xs sm:text-sm text-gray-500 mb-2">수강료</p>
+              <p className="text-xs sm:text-sm text-gray-500 mb-2">참가비</p>
               <p className="text-sm sm:text-lg font-semibold text-green-600">무료</p>
             </CardContent>
           </Card>
@@ -95,7 +281,7 @@ export default function WebinarLandingPage() {
       {/* 강의 커리큘럼 */}
       <section id="curriculum" className="w-full bg-gradient-to-br from-slate-50 to-gray-100 py-12 md:py-16 px-4">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-xl sm:text-2xl font-bold mb-8 text-center">📋 강의 커리큘럼</h2>
+          <h2 className="text-xl sm:text-2xl font-bold mb-8 text-center">📋 웨비나 커리큘럼</h2>
           <ol className="relative border-l-2 border-indigo-200 pl-6 space-y-8">
             {/* 오프닝 */}
             <li className="ml-2">
@@ -123,7 +309,7 @@ export default function WebinarLandingPage() {
           {/* 강의 자료 링크 */}
           <div className="mt-8 text-center">
             <a href="https://gamma.app/docs/x-AI--hmb3fwl2m0czp0u" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-bold shadow hover:from-indigo-600 hover:to-purple-600 transition">
-              📑 강의 자료 바로가기
+              📑 웨비나 자료 바로가기
             </a>
           </div>
         </div>
@@ -203,25 +389,37 @@ export default function WebinarLandingPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* 마지막 CTA Section */}
       <section id="cta" className="w-full py-14 md:py-20 px-4 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-xl sm:text-2xl font-bold mb-4 bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent">
-            노션과 AI 자동화로 센터의 운영을 혁신하세요
+          <h2 className="text-2xl sm:text-3xl font-bold mb-6 bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent">
+            📢 지금 신청하면, 다음 달이 달라집니다!
           </h2>
-          <p className="mb-8 text-sm sm:text-base text-gray-300 leading-relaxed">
-            반복 업무는 줄이고, 고객 만족도는 높이는<br className="hidden sm:block" />
-            실질적인 전략을 지금 배워보세요!
-          </p>
+          <div className="space-y-6 mb-8">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-lg">
+              <div className="flex items-center gap-2">
+                <span className="text-green-400">💰</span>
+                <span>참가비: <span className="font-bold text-green-400">무료</span></span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-blue-400">📅</span>
+                <span>일시: 2025년 7월 25일(목) 오후 3시</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-purple-400">📍</span>
+                <span>장소: 온라인 (Zoom 링크 별도 알림톡 안내)</span>
+              </div>
+            </div>
+          </div>
           <div className="space-y-4">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 shadow-lg border border-white/20">
               <div className="flex items-center justify-center gap-4 mb-4">
                 <span className="bg-gradient-to-r from-red-500 to-pink-500 text-white px-3 py-1 rounded-full text-sm font-bold">한정 100명</span>
                 <span className="text-lg font-bold text-green-400">무료</span>
               </div>
-              <Button asChild size="lg" className="bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold text-base sm:text-lg px-8 py-4 rounded-lg shadow-lg hover:from-purple-700 hover:to-blue-700 transition-all duration-300 w-full sm:w-auto border border-purple-400/50 flex items-center gap-2" aria-label="무료 강의 신청하기">
+              <Button asChild size="lg" className="bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold text-base sm:text-lg px-8 py-4 rounded-lg shadow-lg hover:from-purple-700 hover:to-blue-700 transition-all duration-300 w-full sm:w-auto border border-purple-400/50 flex items-center gap-2" aria-label="무료 웨비나 신청하기">
                 <Link href="https://tally.so/r/nGE1Zk" target="_blank">
-                  <span>👉</span> 무료 강의 신청하기
+                  <span>👉</span> 무료 웨비나 신청하기
                 </Link>
               </Button>
               <p className="text-xs text-gray-400 mt-3">* 선착순 마감, 신청 후 알림톡 발송</p>
@@ -239,12 +437,15 @@ export default function WebinarLandingPage() {
           </div>
           <div className="flex gap-3 mt-2 md:mt-0">
             <a href="#hero" className="hover:text-indigo-600">홈</a>
-            <a href="#info" className="hover:text-indigo-600">강의정보</a>
+            <a href="#problem" className="hover:text-indigo-600">문제제기</a>
+            <a href="#instructor" className="hover:text-indigo-600">강의자</a>
+            <a href="#content" className="hover:text-indigo-600">웨비나내용</a>
+            <a href="#benefits" className="hover:text-indigo-600">참가혜택</a>
+            <a href="#testimonials" className="hover:text-indigo-600">후기</a>
+            <a href="#info" className="hover:text-indigo-600">웨비나정보</a>
             <a href="#curriculum" className="hover:text-indigo-600">커리큘럼</a>
             <a href="#brand" className="hover:text-indigo-600">브랜드소개</a>
             <a href="#recommend" className="hover:text-indigo-600">추천대상</a>
-            <a href="#faq" className="hover:text-indigo-600">FAQ</a>
-            <a href="#review" className="hover:text-indigo-600">후기</a>
           </div>
         </div>
       </footer>
