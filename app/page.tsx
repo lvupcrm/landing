@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function WebinarLandingPage() {
   return (
-    <div className="flex flex-col items-center min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 relative overflow-hidden">
+    <div className="flex flex-col items-center min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 relative overflow-hidden overflow-x-hidden">
       {/* AI Tech Background Pattern */}
       <div className="absolute inset-0 opacity-5 pointer-events-none">
         <div className="absolute top-20 left-20 w-32 h-32 border border-cyan-400 rounded-full animate-pulse"></div>
@@ -16,7 +16,7 @@ export default function WebinarLandingPage() {
       </div>
 
       {/* Hero Section */}
-      <section id="hero" className="w-full bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white py-14 md:py-24 px-4 text-center relative overflow-hidden">
+      <section id="hero" className="w-full bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white py-10 sm:py-14 md:py-24 px-2 sm:px-4 text-center relative overflow-hidden">
         {/* Dynamic Background Elements */}
         <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 via-purple-500/10 to-pink-500/10 animate-pulse"></div>
         <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_30%_20%,rgba(120,119,198,0.3),transparent_50%)]"></div>
@@ -24,7 +24,7 @@ export default function WebinarLandingPage() {
         
         <div className="max-w-4xl mx-auto relative z-10">
           {/* Enhanced Badges */}
-          <div className="flex justify-center gap-3 mb-8 flex-wrap">
+          <div className="flex justify-center gap-2 sm:gap-3 mb-6 sm:mb-8 flex-wrap">
             <span className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-6 py-3 rounded-full text-sm font-bold shadow-xl flex items-center gap-2 backdrop-blur-sm border border-emerald-400/30">
               <span className="text-lg">🆓</span>무료
             </span>
@@ -36,7 +36,7 @@ export default function WebinarLandingPage() {
             </span>
           </div>
           
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black mb-8 leading-tight">
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 sm:mb-8 leading-tight">
             <span className="bg-gradient-to-r from-white via-cyan-200 to-purple-200 bg-clip-text text-transparent">
               운영에 쏟는 시간,
             </span>
@@ -46,35 +46,35 @@ export default function WebinarLandingPage() {
             </span>
           </h1>
           
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-6 text-cyan-200">
+          <h2 className="text-base xs:text-lg sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 text-cyan-200">
             『피트니스 노션 × AI 업무 자동화』 무료 웨비나
           </h2>
           
-          <p className="text-lg sm:text-xl md:text-2xl mb-10 px-4 text-gray-300 leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-10 px-2 sm:px-4 text-gray-300 leading-relaxed">
             실제 센터 대표가 만든 시스템으로 운영 자동화를 경험하세요.
           </p>
           
           {/* Enhanced AI Tools */}
-          <div className="flex justify-center items-center gap-6 mb-10 flex-wrap">
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-4 border border-white/20 flex flex-col items-center w-20 hover:bg-white/20 transition-all duration-300 group">
+          <div className="flex justify-center items-center gap-3 sm:gap-6 mb-6 sm:mb-10 flex-wrap">
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-2 sm:p-4 border border-white/20 flex flex-col items-center w-14 sm:w-20 hover:bg-white/20 transition-all duration-300 group">
               <span className="text-3xl group-hover:scale-110 transition-transform">📝</span>
               <span className="text-xs text-cyan-200 mt-2 font-medium">Notion</span>
             </div>
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-4 border border-white/20 flex flex-col items-center w-20 hover:bg-white/20 transition-all duration-300 group">
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-2 sm:p-4 border border-white/20 flex flex-col items-center w-14 sm:w-20 hover:bg-white/20 transition-all duration-300 group">
               <span className="text-3xl group-hover:scale-110 transition-transform">🤖</span>
               <span className="text-xs text-purple-200 mt-2 font-medium">ChatGPT</span>
             </div>
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-4 border border-white/20 flex flex-col items-center w-20 hover:bg-white/20 transition-all duration-300 group">
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-2 sm:p-4 border border-white/20 flex flex-col items-center w-14 sm:w-20 hover:bg-white/20 transition-all duration-300 group">
               <span className="text-3xl group-hover:scale-110 transition-transform">⚡</span>
               <span className="text-xs text-green-200 mt-2 font-medium">Make</span>
             </div>
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-4 border border-white/20 flex flex-col items-center w-20 hover:bg-white/20 transition-all duration-300 group">
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-2 sm:p-4 border border-white/20 flex flex-col items-center w-14 sm:w-20 hover:bg-white/20 transition-all duration-300 group">
               <span className="text-3xl group-hover:scale-110 transition-transform">🔧</span>
               <span className="text-xs text-orange-200 mt-2 font-medium">Automation</span>
             </div>
           </div>
           
-          <Button asChild size="lg" className="bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold text-lg sm:text-xl px-10 py-6 rounded-2xl shadow-2xl hover:from-emerald-600 hover:via-cyan-600 hover:to-blue-600 transition-all duration-300 border-2 border-cyan-400/50 flex items-center gap-3 mx-auto group hover:scale-105" aria-label="무료 웨비나 신청하기">
+          <Button asChild size="lg" className="bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold text-base sm:text-lg md:text-xl px-6 sm:px-10 py-4 sm:py-6 rounded-2xl shadow-2xl hover:from-emerald-600 hover:via-cyan-600 hover:to-blue-600 transition-all duration-300 border-2 border-cyan-400/50 flex items-center gap-2 sm:gap-3 mx-auto group hover:scale-105" aria-label="무료 웨비나 신청하기">
             <Link href="https://tally.so/r/nGE1Zk" target="_blank">
               <span className="text-xl group-hover:rotate-12 transition-transform">👉</span> 지금 바로 무료로 신청하기
             </Link>
