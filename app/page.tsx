@@ -74,7 +74,7 @@ export default function WebinarLandingPage() {
             </div>
           </div>
           
-          <Button asChild size="lg" className="bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold text-base sm:text-lg md:text-xl px-6 sm:px-10 py-4 sm:py-6 rounded-2xl shadow-2xl hover:from-emerald-600 hover:via-cyan-600 hover:to-blue-600 transition-all duration-300 border-2 border-cyan-400/50 flex items-center gap-2 sm:gap-3 mx-auto group hover:scale-105" aria-label="무료 웨비나 신청하기">
+          <Button asChild size="lg" className="bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold text-base sm:text-lg md:text-xl px-6 sm:px-10 py-4 sm:py-6 rounded-2xl shadow-2xl hover:from-emerald-600 hover:via-cyan-600 hover:to-blue-600 transition-all duration-300 border-2 border-cyan-400/50 flex items-center gap-2 sm:gap-3 mx-auto group hover:scale-110 animate-pulse shadow-emerald-500/50 hover:shadow-emerald-400/50 hover:shadow-2xl" aria-label="무료 웨비나 신청하기">
             <Link href="https://tally.so/r/nGE1Zk" target="_blank">
               <span className="text-xl group-hover:rotate-12 transition-transform">👉</span> 지금 바로 무료로 신청하기
             </Link>
@@ -483,7 +483,8 @@ export default function WebinarLandingPage() {
                 <span className="text-2xl font-bold text-emerald-400">무료</span>
               </div>
               
-              <Button asChild size="lg" className="bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold text-xl px-12 py-6 rounded-2xl shadow-2xl hover:from-emerald-600 hover:via-cyan-600 hover:to-blue-600 transition-all duration-300 w-full sm:w-auto border border-cyan-400/50 flex items-center gap-4 group hover:scale-105" aria-label="무료 웨비나 신청하기">
+              <Button asChild size="lg" className="bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold text-xl px-12 py-6 rounded-2xl shadow-2xl hover:from-emerald-600 hover:via-cyan-600 hover:to-blue-600 transition-all duration-300 w-full sm:w-auto border border-cyan-400/50 flex items-center gap-4 group hover:scale-110 animate-pulse shadow-emerald-500/50 hover:shadow-emerald-400/50 hover:shadow-2xl relative overflow-hidden" aria-label="무료 웨비나 신청하기">
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
                 <Link href="https://tally.so/r/nGE1Zk" target="_blank">
                   <span className="text-2xl group-hover:rotate-12 transition-transform">👉</span> 무료 웨비나 신청하기
                 </Link>
