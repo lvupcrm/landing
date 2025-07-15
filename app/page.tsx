@@ -62,14 +62,15 @@ export default function WebinarLandingPage() {
       </section>
 
       {/* 공감 & 문제 제기 섹션 */}
-      <section id="problem" className="w-full py-12 md:py-16 px-4">
+      <section id="problem" className="w-full py-12 md:py-16 px-4 bg-gradient-to-br from-red-50 to-pink-50">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
-              센터 운영, 정말 이렇게 계속하실 건가요?
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2 flex items-center justify-center gap-2">
+              <span className="text-2xl">❌</span>
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">센터 운영, 정말 이렇게 계속하실 건가요?</span>
             </h2>
           </div>
-          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-gray-200">
+          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-red-200">
             <div className="space-y-4 mb-6">
               <div className="flex items-start gap-3">
                 <span className="text-red-500 text-xl mt-1">❌</span>
@@ -94,14 +95,15 @@ export default function WebinarLandingPage() {
       </section>
 
       {/* 강의자 소개 섹션 */}
-      <section id="instructor" className="w-full bg-gradient-to-br from-slate-50 to-gray-100 py-12 md:py-16 px-4">
+      <section id="instructor" className="w-full py-12 md:py-16 px-4 bg-gradient-to-br from-indigo-50 to-purple-50">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
-              🚀 현장에서 직접 만들어 쓴 구조를 공개합니다
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2 flex items-center justify-center gap-2">
+              <span className="text-2xl">🚀</span>
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">현장에서 직접 만들어 쓴 구조를 공개합니다</span>
             </h2>
           </div>
-          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-gray-200">
+          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-indigo-200">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
@@ -132,14 +134,15 @@ export default function WebinarLandingPage() {
       </section>
 
       {/* 웨비나에서 배울 수 있는 내용 */}
-      <section id="content" className="w-full py-12 md:py-16 px-4">
+      <section id="content" className="w-full py-12 md:py-16 px-4 bg-gradient-to-br from-blue-50 to-indigo-50">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
-              ✅ 웨비나에서 배울 수 있는 내용
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2 flex items-center justify-center gap-2">
+              <span className="text-2xl">✅</span>
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">웨비나에서 배울 수 있는 내용</span>
             </h2>
           </div>
-          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-gray-200">
+          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-blue-200">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-200">
                 <div className="text-3xl mb-4">📝</div>
@@ -167,14 +170,15 @@ export default function WebinarLandingPage() {
       </section>
 
       {/* 참가 혜택 강조 섹션 */}
-      <section id="benefits" className="w-full bg-gradient-to-br from-slate-50 to-gray-100 py-12 md:py-16 px-4">
+      <section id="benefits" className="w-full py-12 md:py-16 px-4 bg-gradient-to-br from-green-50 to-emerald-50">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
-              🎁 참가자 전원에게 드리는 무료 자료
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2 flex items-center justify-center gap-2">
+              <span className="text-2xl">🎁</span>
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">참가자 전원에게 드리는 무료 자료</span>
             </h2>
           </div>
-          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-gray-200">
+          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-green-200">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-xl p-6 border border-orange-200">
                 <div className="text-3xl mb-4">📋</div>
@@ -202,14 +206,15 @@ export default function WebinarLandingPage() {
       </section>
 
       {/* 실제 변화 및 후기 */}
-      <section id="testimonials" className="w-full py-12 md:py-16 px-4">
+      <section id="testimonials" className="w-full py-12 md:py-16 px-4 bg-gradient-to-br from-purple-50 to-pink-50">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
-              💬 "운영이 자동화된 후, 제 일상이 바뀌었습니다."
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2 flex items-center justify-center gap-2">
+              <span className="text-2xl">💬</span>
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">"운영이 자동화된 후, 제 일상이 바뀌었습니다."</span>
             </h2>
           </div>
-          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-gray-200">
+          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-purple-200">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-6 border border-green-200">
                 <div className="flex items-start gap-4">
@@ -257,23 +262,19 @@ export default function WebinarLandingPage() {
         </div>
       </section>
 
-
-
-
-
       {/* LVUP 브랜드 소개 */}
-      <section id="brand" className="w-full bg-gradient-to-br from-slate-50 to-gray-100 py-12 md:py-16 px-4">
+      <section id="brand" className="w-full py-12 md:py-16 px-4 bg-gradient-to-br from-slate-50 to-gray-100">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
             <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-2 flex items-center justify-center gap-2">
               <span className="text-2xl">🏋️‍♂️</span>
-              <span className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">LVUP 브랜드 소개</span>
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">LVUP 브랜드 소개</span>
             </h2>
           </div>
           <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-gray-200">
             <div className="text-center mb-6">
               <div className="flex items-center justify-center gap-3 mb-4">
-                <span className="text-3xl font-extrabold tracking-tight text-indigo-600">LVUP</span>
+                <span className="text-3xl font-extrabold tracking-tight bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">LVUP</span>
               </div>
               <h3 className="text-lg sm:text-xl font-bold mb-4 text-gray-800">더 쉽게 일하고, 강력하게 성장하는<br />피트니스 업무 시스템</h3>
               <p className="text-gray-600 mb-6 text-sm sm:text-base leading-relaxed">
@@ -309,15 +310,15 @@ export default function WebinarLandingPage() {
       </section>
 
       {/* 추천 대상 */}
-      <section id="recommend" className="w-full py-12 md:py-16 px-4">
+      <section id="recommend" className="w-full py-12 md:py-16 px-4 bg-gradient-to-br from-orange-50 to-red-50">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
             <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-2 flex items-center justify-center gap-2">
               <span className="text-2xl">🎯</span>
-              <span className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">이런 분들께 추천합니다</span>
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">이런 분들께 추천합니다</span>
             </h2>
           </div>
-          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-gray-200">
+          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-orange-200">
             <div className="space-y-4">
               {/* 카드 1 */}
               <div className="flex items-center gap-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-200 hover:shadow-lg transition-shadow">
