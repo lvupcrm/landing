@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function WebinarLandingPage() {
   return (
-    <div className="flex flex-col items-center min-h-screen bg-gradient-to-br from-slate-50 to-gray-100">
+    <div className="flex flex-col items-center min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
       {/* Hero Section */}
       <section id="hero" className="w-full bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white py-14 md:py-24 px-4 text-center relative overflow-hidden">
         {/* AI 배경 패턴 */}
@@ -62,7 +62,7 @@ export default function WebinarLandingPage() {
       </section>
 
       {/* 공감 & 문제 제기 섹션 */}
-      <section id="problem" className="w-full py-16 md:py-20 px-4 bg-gradient-to-br from-red-50 to-pink-50">
+      <section id="problem" className="w-full py-16 md:py-20 px-4 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-red-100 to-pink-100 rounded-full mb-6 shadow-lg">
@@ -75,7 +75,7 @@ export default function WebinarLandingPage() {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-red-400 to-pink-400 rounded-full mx-auto"></div>
           </div>
-          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-red-200">
+          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 md:p-10 shadow-2xl border border-white/50 hover:shadow-3xl transition-all duration-300">
             <div className="space-y-6 mb-8">
               <div className="flex items-start gap-4">
                 <span className="text-red-500 text-2xl mt-1 flex-shrink-0">❌</span>
@@ -90,7 +90,7 @@ export default function WebinarLandingPage() {
                 <span className="text-gray-700 text-lg">매달 이러면 안 된다는 걸 알지만 바뀌는 건 없고…</span>
               </div>
             </div>
-            <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-8 border border-green-200">
+            <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-8 border border-green-200 shadow-lg">
               <p className="text-xl font-bold text-green-700 text-center leading-relaxed">
                 "바꿀 수 있는 구조가 이미 있습니다. 지금 시작하세요."
               </p>
@@ -100,7 +100,7 @@ export default function WebinarLandingPage() {
       </section>
 
       {/* 강의자 소개 섹션 */}
-      <section id="instructor" className="w-full py-16 md:py-20 px-4 bg-gradient-to-br from-indigo-50 to-purple-50">
+      <section id="instructor" className="w-full py-16 md:py-20 px-4 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-full mb-6 shadow-lg">
@@ -113,7 +113,7 @@ export default function WebinarLandingPage() {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-indigo-400 to-purple-400 rounded-full mx-auto"></div>
           </div>
-          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-indigo-200">
+          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 md:p-10 shadow-2xl border border-white/50 hover:shadow-3xl transition-all duration-300">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
@@ -133,7 +133,7 @@ export default function WebinarLandingPage() {
                   <span className="text-gray-800 font-semibold text-lg">센터운영 10년차 대표가 경험한 내용을 솔루션으로 개발</span>
                 </div>
               </div>
-              <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-8 border border-indigo-200 flex items-center">
+              <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 border border-indigo-200 flex items-center shadow-lg">
                 <p className="text-gray-700 font-medium italic text-center text-lg leading-relaxed">
                   "이 강의는 이론이 아니라 현장에서 실제로 작동하는 구조를 직접 보여드립니다."
                 </p>
@@ -144,7 +144,7 @@ export default function WebinarLandingPage() {
       </section>
 
       {/* 웨비나에서 배울 수 있는 내용 */}
-      <section id="content" className="w-full py-16 md:py-20 px-4 bg-gradient-to-br from-blue-50 to-indigo-50">
+      <section id="content" className="w-full py-16 md:py-20 px-4 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-full mb-6 shadow-lg">
@@ -157,25 +157,25 @@ export default function WebinarLandingPage() {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-indigo-400 rounded-full mx-auto"></div>
           </div>
-          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-blue-200">
+          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 md:p-10 shadow-2xl border border-white/50 hover:shadow-3xl transition-all duration-300">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
-              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-200">
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-200 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="text-4xl mb-6">📝</div>
                 <h3 className="font-bold text-gray-800 mb-4 text-xl">피트니스 맞춤 Notion 과 AI 활용 방법</h3>
                 <p className="text-gray-600 text-base leading-relaxed">센터 운영에 최적화된 노션 템플릿과 AI 활용 전략</p>
               </div>
-              <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-8 border border-purple-200">
+              <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-200 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="text-4xl mb-6">🤖</div>
                 <h3 className="font-bold text-gray-800 mb-4 text-xl">대표 없이도 운영되는 센터 구조</h3>
                 <p className="text-gray-600 text-base leading-relaxed">자동화된 시스템으로 대표 부재 시에도 원활한 운영</p>
               </div>
-              <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-8 border border-green-200">
+              <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 border border-green-200 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="text-4xl mb-6">📊</div>
                 <h3 className="font-bold text-gray-800 mb-4 text-xl">상담 고객 관리 & 미등록 고객 관리 자동화 흐름</h3>
                 <p className="text-gray-600 text-base leading-relaxed">고객 관리부터 마케팅까지 자동화된 워크플로우</p>
               </div>
             </div>
-            <div className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-xl p-8 text-center">
+            <div className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-2xl p-8 text-center shadow-lg">
               <p className="text-xl font-bold leading-relaxed">
                 현장 대표가 만들어 실제 사용하는 시스템을 그대로 공개합니다.
               </p>
@@ -185,7 +185,7 @@ export default function WebinarLandingPage() {
       </section>
 
       {/* 참가 혜택 강조 섹션 */}
-      <section id="benefits" className="w-full py-16 md:py-20 px-4 bg-gradient-to-br from-green-50 to-emerald-50">
+      <section id="benefits" className="w-full py-16 md:py-20 px-4 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-100 to-emerald-100 rounded-full mb-6 shadow-lg">
@@ -198,25 +198,25 @@ export default function WebinarLandingPage() {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-emerald-400 rounded-full mx-auto"></div>
           </div>
-          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-green-200">
+          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 md:p-10 shadow-2xl border border-white/50 hover:shadow-3xl transition-all duration-300">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
-              <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-xl p-8 border border-orange-200">
+              <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 border border-orange-200 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="text-4xl mb-6">📋</div>
                 <h3 className="font-bold text-gray-800 mb-4 text-xl">운영 자동화 전체 흐름도 PDF</h3>
                 <p className="text-gray-600 text-base leading-relaxed">센터 운영 자동화의 전체적인 구조와 흐름을 한눈에 파악할 수 있는 가이드</p>
               </div>
-              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-200">
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-200 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="text-4xl mb-6">📝</div>
                 <h3 className="font-bold text-gray-800 mb-4 text-xl">상담/고객 관리용 Notion 템플릿</h3>
                 <p className="text-gray-600 text-base leading-relaxed">바로 사용할 수 있는 실용적인 노션 템플릿 제공</p>
               </div>
-              <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-8 border border-green-200">
+              <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 border border-green-200 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="text-4xl mb-6">🤖</div>
                 <h3 className="font-bold text-gray-800 mb-4 text-xl">센터 운영에 도움 되는 커스텀 GPT</h3>
                 <p className="text-gray-600 text-base leading-relaxed">피트니스 센터 운영에 특화된 AI 어시스턴트 활용법</p>
               </div>
             </div>
-            <div className="bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-xl p-8 text-center">
+            <div className="bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-2xl p-8 text-center shadow-lg">
               <p className="text-xl font-bold leading-relaxed">
                 "웨비나 이후 바로 실행할 수 있도록 준비했습니다."
               </p>
@@ -226,7 +226,7 @@ export default function WebinarLandingPage() {
       </section>
 
       {/* 실제 변화 및 후기 */}
-      <section id="testimonials" className="w-full py-16 md:py-20 px-4 bg-gradient-to-br from-purple-50 to-pink-50">
+      <section id="testimonials" className="w-full py-16 md:py-20 px-4 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-purple-100 to-pink-100 rounded-full mb-6 shadow-lg">
@@ -239,9 +239,9 @@ export default function WebinarLandingPage() {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full mx-auto"></div>
           </div>
-          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-purple-200">
+          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 md:p-10 shadow-2xl border border-white/50 hover:shadow-3xl transition-all duration-300">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-8 border border-green-200">
+              <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 border border-green-200 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="flex items-start gap-6">
                   <span className="text-4xl">🏢</span>
                   <div>
@@ -250,7 +250,7 @@ export default function WebinarLandingPage() {
                   </div>
                 </div>
               </div>
-              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-200">
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-200 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="flex items-start gap-6">
                   <span className="text-4xl">⏰</span>
                   <div>
@@ -259,7 +259,7 @@ export default function WebinarLandingPage() {
                   </div>
                 </div>
               </div>
-              <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-8 border border-purple-200">
+              <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-200 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="flex items-start gap-6">
                   <span className="text-4xl">💬</span>
                   <div>
@@ -268,7 +268,7 @@ export default function WebinarLandingPage() {
                   </div>
                 </div>
               </div>
-              <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-xl p-8 border border-orange-200">
+              <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 border border-orange-200 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="flex items-start gap-6">
                   <span className="text-4xl">👥</span>
                   <div>
@@ -288,7 +288,7 @@ export default function WebinarLandingPage() {
       </section>
 
       {/* LVUP 브랜드 소개 */}
-      <section id="brand" className="w-full py-16 md:py-20 px-4 bg-gradient-to-br from-slate-50 to-gray-100">
+      <section id="brand" className="w-full py-16 md:py-20 px-4 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-slate-100 to-gray-100 rounded-full mb-6 shadow-lg">
@@ -301,7 +301,7 @@ export default function WebinarLandingPage() {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-slate-400 to-gray-400 rounded-full mx-auto"></div>
           </div>
-          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-gray-200">
+          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 md:p-10 shadow-2xl border border-white/50 hover:shadow-3xl transition-all duration-300">
             <div className="text-center mb-8">
               <div className="flex items-center justify-center gap-3 mb-6">
                 <span className="text-4xl font-extrabold tracking-tight bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">LVUP</span>
@@ -340,7 +340,7 @@ export default function WebinarLandingPage() {
       </section>
 
       {/* 추천 대상 */}
-      <section id="recommend" className="w-full py-16 md:py-20 px-4 bg-gradient-to-br from-orange-50 to-red-50">
+      <section id="recommend" className="w-full py-16 md:py-20 px-4 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-orange-100 to-red-100 rounded-full mb-6 shadow-lg">
@@ -353,10 +353,10 @@ export default function WebinarLandingPage() {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-orange-400 to-red-400 rounded-full mx-auto"></div>
           </div>
-          <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-orange-200">
+          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 md:p-10 shadow-2xl border border-white/50 hover:shadow-3xl transition-all duration-300">
             <div className="space-y-6">
               {/* 카드 1 */}
-              <div className="flex items-center gap-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-200 hover:shadow-lg transition-shadow">
+              <div className="flex items-center gap-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-200 shadow-lg hover:shadow-xl transition-shadow">
                 <span className="text-4xl flex-shrink-0">💼</span>
                 <div>
                   <div className="font-semibold text-xl mb-2">피트니스 센터 운영자</div>
@@ -364,7 +364,7 @@ export default function WebinarLandingPage() {
                 </div>
               </div>
               {/* 카드 2 */}
-              <div className="flex items-center gap-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-8 border border-purple-200 hover:shadow-lg transition-shadow">
+              <div className="flex items-center gap-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-200 shadow-lg hover:shadow-xl transition-shadow">
                 <span className="text-4xl flex-shrink-0">📱</span>
                 <div>
                   <div className="font-semibold text-xl mb-2">디지털 전환 희망자</div>
@@ -372,7 +372,7 @@ export default function WebinarLandingPage() {
                 </div>
               </div>
               {/* 카드 3 */}
-              <div className="flex items-center gap-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-8 border border-green-200 hover:shadow-lg transition-shadow">
+              <div className="flex items-center gap-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 border border-green-200 shadow-lg hover:shadow-xl transition-shadow">
                 <span className="text-4xl flex-shrink-0">⚡</span>
                 <div>
                   <div className="font-semibold text-xl mb-2">업무 자동화 희망자</div>
@@ -380,7 +380,7 @@ export default function WebinarLandingPage() {
                 </div>
               </div>
               {/* 카드 4 */}
-              <div className="flex items-center gap-6 bg-gradient-to-br from-orange-50 to-red-50 rounded-xl p-8 border border-orange-200 hover:shadow-lg transition-shadow">
+              <div className="flex items-center gap-6 bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 border border-orange-200 shadow-lg hover:shadow-xl transition-shadow">
                 <span className="text-4xl flex-shrink-0">🚀</span>
                 <div>
                   <div className="font-semibold text-xl mb-2">성장 지향적 분</div>
@@ -415,7 +415,7 @@ export default function WebinarLandingPage() {
             </div>
           </div>
           <div className="space-y-6">
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-white/20">
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/20">
               <div className="flex items-center justify-center gap-6 mb-6">
                 <span className="bg-gradient-to-r from-red-500 to-pink-500 text-white px-4 py-2 rounded-full text-base font-bold">한정 100명</span>
                 <span className="text-xl font-bold text-green-400">무료</span>
