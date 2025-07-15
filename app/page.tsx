@@ -65,9 +65,9 @@ export default function WebinarLandingPage() {
           </Button>
           
           <div className="mt-8 space-y-2 text-gray-600">
-            <p className="flex items-center justify-center gap-2">
-              <span className="text-blue-600">📅</span> 일시: 2025년 7월 25일(목) 오후 3시
-            </p>
+                          <p className="flex items-center justify-center gap-2">
+                <span className="text-blue-600">📅</span> 일시: 2025년 7월 25일(금) 오후 3시
+              </p>
             <p className="flex items-center justify-center gap-2">
               <span className="text-purple-600">📍</span> 장소: 온라인 Zoom (신청자 알림톡으로 링크 제공)
             </p>
@@ -432,7 +432,7 @@ export default function WebinarLandingPage() {
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-purple-600 text-2xl">📅</span>
-                <span>일시: 2025년 7월 25일(목) 오후 3시</span>
+                <span>일시: 2025년 7월 25일(금) 오후 3시</span>
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-indigo-600 text-2xl">📍</span>
