@@ -122,8 +122,8 @@ export default function WebinarLandingPage() {
               </div>
             </div>
             
-            <div className="bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 backdrop-blur-sm rounded-3xl p-10 border border-emerald-400/30 shadow-xl">
-              <p className="text-2xl font-bold text-emerald-200 text-center leading-relaxed">
+            <div className="text-center">
+              <p className="text-lg sm:text-xl md:text-2xl font-bold text-cyan-200 leading-relaxed">
                 "바꿀 수 있는 구조가 이미 있습니다. 지금 시작하세요."
               </p>
             </div>
@@ -213,8 +213,8 @@ export default function WebinarLandingPage() {
               </div>
             </div>
             
-            <div className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-3xl p-10 text-center shadow-2xl">
-              <p className="text-2xl font-bold leading-relaxed">
+            <div className="text-center">
+              <p className="text-lg sm:text-xl md:text-2xl font-bold text-purple-200 leading-relaxed">
                 현장 대표가 만들어 실제 사용하는 시스템을 그대로 공개합니다.
               </p>
             </div>
@@ -258,8 +258,8 @@ export default function WebinarLandingPage() {
               </div>
             </div>
             
-            <div className="bg-gradient-to-r from-emerald-500 to-green-500 text-white rounded-3xl p-10 text-center shadow-2xl">
-              <p className="text-2xl font-bold leading-relaxed">
+            <div className="text-center">
+              <p className="text-lg sm:text-xl md:text-2xl font-bold text-emerald-200 leading-relaxed">
                 "웨비나 이후 바로 실행할 수 있도록 준비했습니다."
               </p>
             </div>
@@ -325,8 +325,8 @@ export default function WebinarLandingPage() {
               </div>
             </div>
             
-            <div className="mt-12 text-center">
-              <p className="text-2xl font-bold text-cyan-200 leading-relaxed">
+            <div className="text-center">
+              <p className="text-lg sm:text-xl md:text-2xl font-bold text-cyan-200 leading-relaxed">
                 "대표가 말하는 진짜 자동화 후기를 들어보세요."
               </p>
             </div>
