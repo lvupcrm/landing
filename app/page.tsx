@@ -290,10 +290,10 @@ export default function WebinarLandingPage() {
             <div className="bg-gray-800 rounded-2xl p-6 border border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="flex items-start gap-4">
                 <span className="text-4xl">⏰</span>
-                <div>
-                  <p className="font-bold text-white mb-2 text-lg">"업무 시간이 10/1로 줄어 들었습니다."</p>
-                  <p className="text-gray-400">- 효율성 극대화</p>
-                </div>
+                                  <div>
+                    <p className="font-bold text-white mb-2 text-lg">"업무 시간이 1/10로 줄어 들었습니다."</p>
+                    <p className="text-gray-400">- 효율성 극대화</p>
+                  </div>
               </div>
             </div>
             
