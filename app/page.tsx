@@ -36,7 +36,7 @@ export default function WebinarLandingPage() {
             </span>
           </div>
           
-          <h1 className="text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-5xl font-black mb-4 sm:mb-6 leading-tight">
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black mb-4 sm:mb-6 leading-tight">
             <span className="bg-gradient-to-r from-white via-cyan-200 to-purple-200 bg-clip-text text-transparent">
               운영에 쏟는 시간,
             </span>
@@ -46,11 +46,11 @@ export default function WebinarLandingPage() {
             </span>
           </h1>
           
-          <h2 className="text-sm xs:text-base sm:text-lg md:text-2xl font-bold mb-3 sm:mb-5 text-cyan-200">
+          <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-3 sm:mb-5 text-cyan-200">
             『피트니스 노션 × AI 업무 자동화』 무료 웨비나
           </h2>
           
-          <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-10 px-2 sm:px-4 text-gray-300 leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg mb-6 sm:mb-10 px-2 sm:px-4 text-gray-300 leading-relaxed">
             실제 센터 대표가 만든 시스템으로 운영 자동화를 경험하세요.
           </p>
           
@@ -98,7 +98,7 @@ export default function WebinarLandingPage() {
             <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-red-500 to-pink-500 rounded-full mb-8 shadow-2xl">
               <span className="text-4xl">❌</span>
             </div>
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-white mb-4 sm:mb-6 leading-tight">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-white mb-4 sm:mb-6 leading-tight">
               <span className="bg-gradient-to-r from-red-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
                 센터 운영, 정말 이렇게 계속하실 건가요?
               </span>
@@ -138,7 +138,7 @@ export default function WebinarLandingPage() {
             <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-full mb-8 shadow-2xl">
               <span className="text-4xl">🚀</span>
             </div>
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-white mb-4 sm:mb-6 leading-tight">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-white mb-4 sm:mb-6 leading-tight">
               <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
                 현장에서 직접 만들어 쓴 구조를 공개합니다
               </span>
@@ -151,19 +151,19 @@ export default function WebinarLandingPage() {
               <div className="space-y-8">
                 <div className="flex items-center gap-6">
                   <span className="text-4xl">🏢</span>
-                  <span className="text-white font-semibold text-xl">센터 2개 지점 운영</span>
+                  <span className="text-white font-semibold text-base sm:text-lg md:text-xl">센터 2개 지점 운영</span>
                 </div>
                 <div className="flex items-center gap-6">
                   <span className="text-4xl">🚀</span>
-                  <span className="text-white font-semibold text-xl">피트니스 종사자 성장 플랫폼 LVUP 운영</span>
+                  <span className="text-white font-semibold text-base sm:text-lg md:text-xl">피트니스 종사자 성장 플랫폼 LVUP 운영</span>
                 </div>
                 <div className="flex items-center gap-6">
                   <span className="text-4xl">🤖</span>
-                  <span className="text-white font-semibold text-xl">Notion, GPT, Make를 활용한 피트니스 운영 자동화 전문가</span>
+                  <span className="text-white font-semibold text-base sm:text-lg md:text-xl">Notion, GPT, Make를 활용한 피트니스 운영 자동화 전문가</span>
                 </div>
                 <div className="flex items-center gap-6">
                   <span className="text-4xl">📈</span>
-                  <span className="text-white font-semibold text-xl">센터운영 10년차 대표가 경험한 내용을 솔루션으로 개발</span>
+                  <span className="text-white font-semibold text-base sm:text-lg md:text-xl">센터운영 10년차 대표가 경험한 내용을 솔루션으로 개발</span>
                 </div>
               </div>
               
@@ -184,7 +184,7 @@ export default function WebinarLandingPage() {
             <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-500 rounded-full mb-8 shadow-2xl">
               <span className="text-4xl">✅</span>
             </div>
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-white mb-4 sm:mb-6 leading-tight">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-white mb-4 sm:mb-6 leading-tight">
               <span className="bg-gradient-to-r from-green-400 via-emerald-400 to-cyan-400 bg-clip-text text-transparent">
                 웨비나에서 배울 수 있는 내용
               </span>
@@ -197,19 +197,19 @@ export default function WebinarLandingPage() {
               <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 backdrop-blur-sm rounded-3xl p-8 border border-cyan-400/30 shadow-xl hover:shadow-2xl transition-all duration-300 group hover:scale-105">
                 <div className="text-5xl mb-6 group-hover:scale-110 transition-transform">📝</div>
                 <h3 className="font-bold text-white mb-3 text-base sm:text-lg md:text-xl">피트니스 맞춤 Notion 과 AI 활용 방법</h3>
-                <p className="text-gray-300 text-base leading-relaxed">센터 운영에 최적화된 노션 템플릿과 AI 활용 전략</p>
+                <p className="text-gray-300 text-xs sm:text-sm md:text-base leading-relaxed">센터 운영에 최적화된 노션 템플릿과 AI 활용 전략</p>
               </div>
               
               <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-sm rounded-3xl p-8 border border-purple-400/30 shadow-xl hover:shadow-2xl transition-all duration-300 group hover:scale-105">
                 <div className="text-5xl mb-6 group-hover:scale-110 transition-transform">🤖</div>
                 <h3 className="font-bold text-white mb-3 text-base sm:text-lg md:text-xl">대표 없이도 운영되는 센터 구조</h3>
-                <p className="text-gray-300 text-base leading-relaxed">자동화된 시스템으로 대표 부재 시에도 원활한 운영</p>
+                <p className="text-gray-300 text-xs sm:text-sm md:text-base leading-relaxed">자동화된 시스템으로 대표 부재 시에도 원활한 운영</p>
               </div>
               
               <div className="bg-gradient-to-br from-emerald-500/20 to-green-500/20 backdrop-blur-sm rounded-3xl p-8 border border-emerald-400/30 shadow-xl hover:shadow-2xl transition-all duration-300 group hover:scale-105">
                 <div className="text-5xl mb-6 group-hover:scale-110 transition-transform">📊</div>
                 <h3 className="font-bold text-white mb-3 text-base sm:text-lg md:text-xl">상담 고객 관리 & 미등록 고객 관리 자동화 흐름</h3>
-                <p className="text-gray-300 text-base leading-relaxed">고객 관리부터 마케팅까지 자동화된 워크플로우</p>
+                <p className="text-gray-300 text-xs sm:text-sm md:text-base leading-relaxed">고객 관리부터 마케팅까지 자동화된 워크플로우</p>
               </div>
             </div>
             
@@ -229,7 +229,7 @@ export default function WebinarLandingPage() {
             <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-orange-500 to-red-500 rounded-full mb-8 shadow-2xl">
               <span className="text-4xl">🎁</span>
             </div>
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-white mb-4 sm:mb-6 leading-tight">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-white mb-4 sm:mb-6 leading-tight">
               <span className="bg-gradient-to-r from-orange-400 via-red-400 to-pink-400 bg-clip-text text-transparent">
                 참가자 전원에게 드리는 무료 자료
               </span>
@@ -242,19 +242,19 @@ export default function WebinarLandingPage() {
               <div className="bg-gradient-to-br from-orange-500/20 to-red-500/20 backdrop-blur-sm rounded-3xl p-8 border border-orange-400/30 shadow-xl hover:shadow-2xl transition-all duration-300 group hover:scale-105">
                 <div className="text-5xl mb-6 group-hover:scale-110 transition-transform">📋</div>
                 <h3 className="font-bold text-white mb-3 text-base sm:text-lg md:text-xl">운영 자동화 전체 흐름도 PDF</h3>
-                <p className="text-gray-300 text-base leading-relaxed">센터 운영 자동화의 전체적인 구조와 흐름을 한눈에 파악할 수 있는 가이드</p>
+                <p className="text-gray-300 text-xs sm:text-sm md:text-base leading-relaxed">센터 운영 자동화의 전체적인 구조와 흐름을 한눈에 파악할 수 있는 가이드</p>
               </div>
               
               <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 backdrop-blur-sm rounded-3xl p-8 border border-cyan-400/30 shadow-xl hover:shadow-2xl transition-all duration-300 group hover:scale-105">
                 <div className="text-5xl mb-6 group-hover:scale-110 transition-transform">📝</div>
                 <h3 className="font-bold text-white mb-3 text-base sm:text-lg md:text-xl">상담/고객 관리용 Notion 템플릿</h3>
-                <p className="text-gray-300 text-base leading-relaxed">바로 사용할 수 있는 실용적인 노션 템플릿 제공</p>
+                <p className="text-gray-300 text-xs sm:text-sm md:text-base leading-relaxed">바로 사용할 수 있는 실용적인 노션 템플릿 제공</p>
               </div>
               
               <div className="bg-gradient-to-br from-emerald-500/20 to-green-500/20 backdrop-blur-sm rounded-3xl p-8 border border-emerald-400/30 shadow-xl hover:shadow-2xl transition-all duration-300 group hover:scale-105">
                 <div className="text-5xl mb-6 group-hover:scale-110 transition-transform">🤖</div>
                 <h3 className="font-bold text-white mb-3 text-base sm:text-lg md:text-xl">센터 운영에 도움 되는 커스텀 GPT</h3>
-                <p className="text-gray-300 text-base leading-relaxed">피트니스 센터 운영에 특화된 AI 어시스턴트 활용법</p>
+                <p className="text-gray-300 text-xs sm:text-sm md:text-base leading-relaxed">피트니스 센터 운영에 특화된 AI 어시스턴트 활용법</p>
               </div>
             </div>
             
@@ -274,7 +274,7 @@ export default function WebinarLandingPage() {
             <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-pink-500 to-purple-500 rounded-full mb-8 shadow-2xl">
               <span className="text-4xl">💬</span>
             </div>
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-white mb-4 sm:mb-6 leading-tight">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-white mb-4 sm:mb-6 leading-tight">
               <span className="bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
                 "운영이 자동화된 후, 제 일상이 바뀌었습니다."
               </span>
@@ -288,7 +288,7 @@ export default function WebinarLandingPage() {
                 <div className="flex items-start gap-6">
                   <span className="text-5xl">🏢</span>
                   <div>
-                    <p className="font-bold text-white mb-3 text-base sm:text-lg md:text-xl">"출근 하지 않아도 센터 운영을 할 수 있게 되었습니다."</p>
+                    <p className="font-bold text-white mb-3 text-sm sm:text-base md:text-lg">"출근 하지 않아도 센터 운영을 할 수 있게 되었습니다."</p>
                     <p className="text-gray-300 text-base">- 자동화 시스템 구축 후</p>
                   </div>
                 </div>
@@ -298,7 +298,7 @@ export default function WebinarLandingPage() {
                 <div className="flex items-start gap-6">
                   <span className="text-5xl">⏰</span>
                   <div>
-                    <p className="font-bold text-white mb-3 text-base sm:text-lg md:text-xl">"업무 시간이 10/1로 줄어 들었습니다."</p>
+                    <p className="font-bold text-white mb-3 text-sm sm:text-base md:text-lg">"업무 시간이 10/1로 줄어 들었습니다."</p>
                     <p className="text-gray-300 text-base">- 효율성 극대화</p>
                   </div>
                 </div>
@@ -308,7 +308,7 @@ export default function WebinarLandingPage() {
                 <div className="flex items-start gap-6">
                   <span className="text-5xl">💬</span>
                   <div>
-                    <p className="font-bold text-white mb-3 text-base sm:text-lg md:text-xl">"직원과 카톡 조율이 사라졌습니다."</p>
+                    <p className="font-bold text-white mb-3 text-sm sm:text-base md:text-lg">"직원과 카톡 조율이 사라졌습니다."</p>
                     <p className="text-gray-300 text-base">- 자동화된 커뮤니케이션</p>
                   </div>
                 </div>
@@ -318,7 +318,7 @@ export default function WebinarLandingPage() {
                 <div className="flex items-start gap-6">
                   <span className="text-5xl">👥</span>
                   <div>
-                    <p className="font-bold text-white mb-3 text-base sm:text-lg md:text-xl">"고객 관리가 자동으로 되니 누락 걱정이 없습니다."</p>
+                    <p className="font-bold text-white mb-3 text-sm sm:text-base md:text-lg">"고객 관리가 자동으로 되니 누락 걱정이 없습니다."</p>
                     <p className="text-gray-300 text-base">- 체계적인 고객 관리</p>
                   </div>
                 </div>
@@ -341,7 +341,7 @@ export default function WebinarLandingPage() {
             <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-full mb-8 shadow-2xl">
               <span className="text-4xl">🏋️‍♂️</span>
             </div>
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-white mb-4 sm:mb-6 leading-tight">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-white mb-4 sm:mb-6 leading-tight">
               <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
                 LVUP 브랜드 소개
               </span>
@@ -354,8 +354,8 @@ export default function WebinarLandingPage() {
               <div className="flex items-center justify-center gap-4 mb-8">
                 <span className="text-5xl font-black tracking-tight bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">LVUP</span>
               </div>
-              <h3 className="text-2xl sm:text-3xl font-bold mb-8 text-white leading-relaxed">더 쉽게 일하고, 강력하게 성장하는<br />피트니스 업무 시스템</h3>
-              <p className="text-gray-300 mb-10 text-lg sm:text-xl leading-relaxed max-w-4xl mx-auto">
+              <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-6 sm:mb-8 text-white leading-relaxed">더 쉽게 일하고, 강력하게 성장하는<br />피트니스 업무 시스템</h3>
+              <p className="text-gray-300 mb-8 sm:mb-10 text-sm sm:text-base md:text-lg leading-relaxed max-w-4xl mx-auto">
                 10년의 노하우로 완성된 피트니스 업무 체계와 매뉴얼을 누구나 실행 가능한 시스템으로 바꾸었습니다.<br />
                 LVUP는 피트니스 종사자들의 성장을 돕고자 업계 노하우를 체계화하여<br />누구나 실행하고 성장할 수 있는 올인원 업무 시스템을 제공합니다.
               </p>
@@ -364,19 +364,19 @@ export default function WebinarLandingPage() {
             <div className="space-y-6 mb-12 max-w-3xl mx-auto">
               <div className="flex items-center gap-6">
                 <span className="text-cyan-400 text-2xl">✔️</span>
-                <span className="text-white text-xl">노션 기반, 클릭 한 번으로 복제</span>
+                <span className="text-white text-sm sm:text-base md:text-lg">노션 기반, 클릭 한 번으로 복제</span>
               </div>
               <div className="flex items-center gap-6">
                 <span className="text-cyan-400 text-2xl">✔️</span>
-                <span className="text-white text-xl">회원/직원/매출/마케팅 등 센터 운영 전반 지원</span>
+                <span className="text-white text-sm sm:text-base md:text-lg">회원/직원/매출/마케팅 등 센터 운영 전반 지원</span>
               </div>
               <div className="flex items-center gap-6">
                 <span className="text-cyan-400 text-2xl">✔️</span>
-                <span className="text-white text-xl">누구나 쉽게 적응, 완전한 커스터마이징 가능</span>
+                <span className="text-white text-sm sm:text-base md:text-lg">누구나 쉽게 적응, 완전한 커스터마이징 가능</span>
               </div>
               <div className="flex items-center gap-6">
                 <span className="text-cyan-400 text-2xl">✔️</span>
-                <span className="text-white text-xl">성장에 도움이 되는 블로그/자료 제공</span>
+                <span className="text-white text-sm sm:text-base md:text-lg">성장에 도움이 되는 블로그/자료 제공</span>
               </div>
             </div>
             
@@ -397,7 +397,7 @@ export default function WebinarLandingPage() {
             <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-500 rounded-full mb-8 shadow-2xl">
               <span className="text-4xl">🎯</span>
             </div>
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-white mb-4 sm:mb-6 leading-tight">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-white mb-4 sm:mb-6 leading-tight">
               <span className="bg-gradient-to-r from-yellow-400 via-orange-400 to-red-400 bg-clip-text text-transparent">
                 이런 분들께 추천합니다
               </span>
@@ -411,8 +411,8 @@ export default function WebinarLandingPage() {
               <div className="flex items-center gap-8 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 backdrop-blur-sm rounded-3xl p-8 border border-cyan-400/30 shadow-xl hover:shadow-2xl transition-all duration-300 group hover:scale-105">
                 <span className="text-5xl flex-shrink-0 group-hover:scale-110 transition-transform">💼</span>
                 <div>
-                  <div className="font-bold text-white text-lg sm:text-xl md:text-2xl mb-2">피트니스 센터 운영자</div>
-                  <div className="text-gray-300 text-xl">업무 효율성을 높이고 싶은 분</div>
+                  <div className="font-bold text-white text-base sm:text-lg md:text-xl mb-2">피트니스 센터 운영자</div>
+                  <div className="text-gray-300 text-sm sm:text-base md:text-lg">업무 효율성을 높이고 싶은 분</div>
                 </div>
               </div>
               
@@ -421,7 +421,7 @@ export default function WebinarLandingPage() {
                 <span className="text-5xl flex-shrink-0 group-hover:scale-110 transition-transform">📱</span>
                 <div>
                   <div className="font-bold text-white text-2xl mb-3">디지털 전환 희망자</div>
-                  <div className="text-gray-300 text-xl">노션과 AI를 활용하고 싶은 분</div>
+                  <div className="text-gray-300 text-sm sm:text-base md:text-lg">노션과 AI를 활용하고 싶은 분</div>
                 </div>
               </div>
               
@@ -430,7 +430,7 @@ export default function WebinarLandingPage() {
                 <span className="text-5xl flex-shrink-0 group-hover:scale-110 transition-transform">⚡</span>
                 <div>
                   <div className="font-bold text-white text-2xl mb-3">업무 자동화 희망자</div>
-                  <div className="text-gray-300 text-xl">반복 업무를 줄이고 싶은 분</div>
+                  <div className="text-gray-300 text-sm sm:text-base md:text-lg">반복 업무를 줄이고 싶은 분</div>
                 </div>
               </div>
               
@@ -439,7 +439,7 @@ export default function WebinarLandingPage() {
                 <span className="text-5xl flex-shrink-0 group-hover:scale-110 transition-transform">🚀</span>
                 <div>
                   <div className="font-bold text-white text-2xl mb-3">성장 지향적 분</div>
-                  <div className="text-gray-300 text-xl">센터 운영을 혁신하고 싶은 분</div>
+                  <div className="text-gray-300 text-sm sm:text-base md:text-lg">센터 운영을 혁신하고 싶은 분</div>
                 </div>
               </div>
             </div>
@@ -455,12 +455,12 @@ export default function WebinarLandingPage() {
         <div className="absolute top-0 right-0 w-full h-full bg-[radial-gradient(circle_at_70%_80%,rgba(120,119,198,0.3),transparent_50%)]"></div>
         
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black mb-10 bg-gradient-to-r from-white via-cyan-200 to-purple-200 bg-clip-text text-transparent leading-tight">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black mb-8 sm:mb-10 bg-gradient-to-r from-white via-cyan-200 to-purple-200 bg-clip-text text-transparent leading-tight">
             📢 지금 신청하면, 다음 달이 달라집니다!
           </h2>
           
           <div className="space-y-8 mb-12">
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-8 text-xl">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-sm sm:text-base md:text-lg">
               <div className="flex items-center gap-4">
                 <span className="text-emerald-400 text-3xl">💰</span>
                 <span>참가비: <span className="font-bold text-emerald-400">무료</span></span>
