@@ -171,22 +171,19 @@ export default function WebinarLandingPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-white mb-4 leading-tight">
-              클래스에서 배우는 것
+              웨비나 내용 한눈에 보기
             </h2>
-            <p className="text-lg text-gray-400 mb-6">
-              피트니스 센터 운영 자동화를 위한 실습을 통해 노션과 AI를 익히고, 안전하고 효율적인 작업 환경도 구축합니다
-            </p>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-green-500 rounded-full mx-auto"></div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-gray-800 rounded-2xl p-6 border border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 group hover:scale-105">
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-500 rounded-full mb-4">
                   <span className="text-2xl text-white">💡</span>
                 </div>
-                <h3 className="font-bold text-white mb-3 text-lg">노션 AI 활용법</h3>
-                <p className="text-gray-400 leading-relaxed text-sm">코딩을 몰라도 아이디어를 구현할 수 있는 세상입니다. 피트니스 운영에 최적화된 노션 AI 사용법을 배웁니다.</p>
+                <h3 className="font-bold text-white mb-3 text-lg">피트니스 맞춤 Notion 과 AI 활용 방법</h3>
+                <p className="text-gray-400 leading-relaxed text-sm">센터 운영에 최적화된 노션 템플릿과 AI 활용 전략</p>
               </div>
             </div>
             
@@ -195,30 +192,26 @@ export default function WebinarLandingPage() {
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-500 rounded-full mb-4">
                   <span className="text-2xl text-white">🖥️</span>
                 </div>
-                <h3 className="font-bold text-white mb-3 text-lg">센터 운영 시스템 초안 제작</h3>
-                <p className="text-gray-400 leading-relaxed text-sm">센터 운영의 기본 구조를 이해하고, 노션을 활용해 지금 바로 활용 가능한 운영 시스템 초안을 만들어봅니다.</p>
+                <h3 className="font-bold text-white mb-3 text-lg">대표 없이도 운영되는 센터 구조</h3>
+                <p className="text-gray-400 leading-relaxed text-sm">자동화된 시스템으로 대표 부재 시에도 원활한 운영</p>
               </div>
             </div>
             
             <div className="bg-gray-800 rounded-2xl p-6 border border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 group hover:scale-105">
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-500 rounded-full mb-4">
-                  <span className="text-2xl text-white">☁️</span>
+                  <span className="text-2xl text-white">📊</span>
                 </div>
-                <h3 className="font-bold text-white mb-3 text-lg">운영 시스템 무료 배포</h3>
-                <p className="text-gray-400 leading-relaxed text-sm">센터 운영 시스템을 온라인에 무료로 배포해 언제 어디서나 접속할 수 있게 합니다.</p>
+                <h3 className="font-bold text-white mb-3 text-lg">상담 고객 관리 & 미등록 고객 관리 자동화 흐름</h3>
+                <p className="text-gray-400 leading-relaxed text-sm">고객 관리부터 마케팅까지 자동화된 워크플로우</p>
               </div>
             </div>
-            
-            <div className="bg-gray-800 rounded-2xl p-6 border border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 group hover:scale-105">
-              <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-500 rounded-full mb-4">
-                  <span className="text-2xl text-white">⚙️</span>
-                </div>
-                <h3 className="font-bold text-white mb-3 text-lg">작업 환경 세팅</h3>
-                <p className="text-gray-400 leading-relaxed text-sm">내 컴퓨터와 노션, AI 도구들을 연동해 코드 백업과 온라인 배포를 동시에 처리하는 작업 환경을 구축합니다.</p>
-              </div>
-            </div>
+          </div>
+          
+          <div className="text-center mt-12">
+            <p className="text-xl md:text-2xl font-bold text-blue-400 leading-relaxed">
+              현장 대표가 만들어 실제 사용하는 시스템을 그대로 공개합니다.
+            </p>
           </div>
         </div>
       </section>
